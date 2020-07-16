@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xinyu.dao.ArticleInfoMapper">
+  <resultMap id="BaseResultMap" type="com.xinyu.model.ArticleInfo">
+    <constructor>
+      <idArg column="article_id" javaType="java.lang.Integer" jdbcType="INTEGER" />
+      <arg column="atricle_title" javaType="java.lang.String" jdbcType="VARCHAR" />
+      <arg column="article_subhead" javaType="java.lang.String" jdbcType="VARCHAR" />
+      <arg column="article_star" javaType="java.lang.Integer" jdbcType="INTEGER" />
+      <arg column="article_ transmit" javaType="java.lang.Integer" jdbcType="INTEGER" />
+      <arg column="artice_share" javaType="java.lang.Integer" jdbcType="INTEGER" />
+      <arg column="article_state" javaType="java.lang.Integer" jdbcType="INTEGER" />
+      <arg column="public_user_id" javaType="java.lang.Integer" jdbcType="INTEGER" />
+      <arg column="public_time" javaType="java.util.Date" jdbcType="TIMESTAMP" />
+      <arg column="update_time" javaType="java.util.Date" jdbcType="TIMESTAMP" />
+    </constructor>
+  </resultMap>
+  <resultMap id="ResultMapWithBLOBs" type="com.xinyu.model.ArticleInfo">
+    <constructor>
+      <idArg column="article_id" javaType="java.lang.Integer" jdbcType="INTEGER" />
+      <arg column="atricle_title" javaType="java.lang.String" jdbcType="VARCHAR" />
+      <arg column="article_subhead" javaType="java.lang.String" jdbcType="VARCHAR" />
+      <arg column="article_star" javaType="java.lang.Integer" jdbcType="INTEGER" />
+      <arg column="article_ transmit" javaType="java.lang.Integer" jdbcType="INTEGER" />
+      <arg column="artice_share" javaType="java.lang.Integer" jdbcType="INTEGER" />
+      <arg column="article_state" javaType="java.lang.Integer" jdbcType="INTEGER" />
+      <arg column="public_user_id" javaType="java.lang.Integer" jdbcType="INTEGER" />
+      <arg column="public_time" javaType="java.util.Date" jdbcType="TIMESTAMP" />
+      <arg column="update_time" javaType="java.util.Date" jdbcType="TIMESTAMP" />
+      <arg column="atricle_content" javaType="java.lang.String" jdbcType="LONGVARCHAR" />
+    </constructor>
+  </resultMap>
+  <sql id="Base_Column_List">
+    article_id, atricle_title, article_subhead, article_star, "article_ transmit", artice_share, 
+    article_state, public_user_id, public_time, update_time
+  </sql>
+  <sql id="Blob_Column_List">
+    atricle_content
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="ResultMapWithBLOBs">
+    select 
+    <include refid="Base_Column_List" />
+    ,
+    <include refid="Blob_Column_List" />
+    from article_info
+    where article_id = #{articleId,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from article_info
+    where article_id = #{articleId,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.xinyu.model.ArticleInfo">
+    insert into article_info (article_id, atricle_title, article_subhead, 
+      article_star, "article_ transmit", artice_share, 
+      article_state, public_user_id, public_time, 
+      update_time, atricle_content)
+    values (#{articleId,jdbcType=INTEGER}, #{atricleTitle,jdbcType=VARCHAR}, #{articleSubhead,jdbcType=VARCHAR}, 
+      #{articleStar,jdbcType=INTEGER}, #{articleTransmit,jdbcType=INTEGER}, #{articeShare,jdbcType=INTEGER}, 
+      #{articleState,jdbcType=INTEGER}, #{publicUserId,jdbcType=INTEGER}, #{publicTime,jdbcType=TIMESTAMP}, 
+      #{updateTime,jdbcType=TIMESTAMP}, #{atricleContent,jdbcType=LONGVARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.xinyu.model.ArticleInfo">
+    insert into article_info
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="articleId != null">
+        article_id,
+      </if>
+      <if test="atricleTitle != null">
+        atricle_title,
+      </if>
+      <if test="articleSubhead != null">
+        article_subhead,
+      </if>
+      <if test="articleStar != null">
+        article_star,
+      </if>
+      <if test="articleTransmit != null">
+        "article_ transmit",
+      </if>
+      <if test="articeShare != null">
+        artice_share,
+      </if>
+      <if test="articleState != null">
+        article_state,
+      </if>
+      <if test="publicUserId != null">
+        public_user_id,
+      </if>
+      <if test="publicTime != null">
+        public_time,
+      </if>
+      <if test="updateTime != null">
+        update_time,
+      </if>
+      <if test="atricleContent != null">
+        atricle_content,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="articleId != null">
+        #{articleId,jdbcType=INTEGER},
+      </if>
+      <if test="atricleTitle != null">
+        #{atricleTitle,jdbcType=VARCHAR},
+      </if>
+      <if test="articleSubhead != null">
+        #{articleSubhead,jdbcType=VARCHAR},
+      </if>
+      <if test="articleStar != null">
+        #{articleStar,jdbcType=INTEGER},
+      </if>
+      <if test="articleTransmit != null">
+        #{articleTransmit,jdbcType=INTEGER},
+      </if>
+      <if test="articeShare != null">
+        #{articeShare,jdbcType=INTEGER},
+      </if>
+      <if test="articleState != null">
+        #{articleState,jdbcType=INTEGER},
+      </if>
+      <if test="publicUserId != null">
+        #{publicUserId,jdbcType=INTEGER},
+      </if>
+      <if test="publicTime != null">
+        #{publicTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="updateTime != null">
+        #{updateTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="atricleContent != null">
+        #{atricleContent,jdbcType=LONGVARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.xinyu.model.ArticleInfo">
+    update article_info
+    <set>
+      <if test="atricleTitle != null">
+        atricle_title = #{atricleTitle,jdbcType=VARCHAR},
+      </if>
+      <if test="articleSubhead != null">
+        article_subhead = #{articleSubhead,jdbcType=VARCHAR},
+      </if>
+      <if test="articleStar != null">
+        article_star = #{articleStar,jdbcType=INTEGER},
+      </if>
+      <if test="articleTransmit != null">
+        "article_ transmit" = #{articleTransmit,jdbcType=INTEGER},
+      </if>
+      <if test="articeShare != null">
+        artice_share = #{articeShare,jdbcType=INTEGER},
+      </if>
+      <if test="articleState != null">
+        article_state = #{articleState,jdbcType=INTEGER},
+      </if>
+      <if test="publicUserId != null">
+        public_user_id = #{publicUserId,jdbcType=INTEGER},
+      </if>
+      <if test="publicTime != null">
+        public_time = #{publicTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="updateTime != null">
+        update_time = #{updateTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="atricleContent != null">
+        atricle_content = #{atricleContent,jdbcType=LONGVARCHAR},
+      </if>
+    </set>
+    where article_id = #{articleId,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKeyWithBLOBs" parameterType="com.xinyu.model.ArticleInfo">
+    update article_info
+    set atricle_title = #{atricleTitle,jdbcType=VARCHAR},
+      article_subhead = #{articleSubhead,jdbcType=VARCHAR},
+      article_star = #{articleStar,jdbcType=INTEGER},
+      "article_ transmit" = #{articleTransmit,jdbcType=INTEGER},
+      artice_share = #{articeShare,jdbcType=INTEGER},
+      article_state = #{articleState,jdbcType=INTEGER},
+      public_user_id = #{publicUserId,jdbcType=INTEGER},
+      public_time = #{publicTime,jdbcType=TIMESTAMP},
+      update_time = #{updateTime,jdbcType=TIMESTAMP},
+      atricle_content = #{atricleContent,jdbcType=LONGVARCHAR}
+    where article_id = #{articleId,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.xinyu.model.ArticleInfo">
+    update article_info
+    set atricle_title = #{atricleTitle,jdbcType=VARCHAR},
+      article_subhead = #{articleSubhead,jdbcType=VARCHAR},
+      article_star = #{articleStar,jdbcType=INTEGER},
+      "article_ transmit" = #{articleTransmit,jdbcType=INTEGER},
+      artice_share = #{articeShare,jdbcType=INTEGER},
+      article_state = #{articleState,jdbcType=INTEGER},
+      public_user_id = #{publicUserId,jdbcType=INTEGER},
+      public_time = #{publicTime,jdbcType=TIMESTAMP},
+      update_time = #{updateTime,jdbcType=TIMESTAMP}
+    where article_id = #{articleId,jdbcType=INTEGER}
+  </update>
+</mapper>
