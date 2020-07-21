@@ -7,15 +7,54 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4c6da1a7-5271-4905-98cf-120598670faf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xinyu/common/InterceptorAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xinyu/common/InterceptorAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xinyu/controller/BaseLearn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xinyu/controller/BaseLearn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xinyu/common/InterceptorAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xinyu/common/InterceptorAdapter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xinyu/controller/BaseLearn.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xinyu/controller/BaseLearn.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssmproject-1.0-SNAPSHOT/WEB-INF/classes/com/xinyu/common/InterceptorAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssmproject-1.0-SNAPSHOT/WEB-INF/classes/com/xinyu/common/InterceptorAdapter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssmproject-1.0-SNAPSHOT/WEB-INF/classes/com/xinyu/controller/BaseLearn.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssmproject-1.0-SNAPSHOT/WEB-INF/classes/com/xinyu/controller/BaseLearn.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xinyu/tool/DES.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xinyu/tool/DESEncrypt.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xinyu/tool/HttpUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xinyu/tool/IpUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xinyu/tool/MD5Util.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xinyu/tool/PageManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xinyu/tool/SHA1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xinyu/tool/SQLFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xinyu/tool/StaticObject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xinyu/tool/StringUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xinyu/tool/Tool.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xinyu/tool/bean/AudioCountBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/META-INF/context.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/VueAdmin/src/components/Breadcrumb/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/VueAdmin/src/components/Breadcrumb/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/VueAdmin/src/views/home/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/VueAdmin/src/views/home/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/static/css/app.dc3d5df7.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/static/css/chunk-40c9df02.3ddfcf4a.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/static/js/app.09d8b769.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/static/js/chunk-40c9df02.db83e2ee.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xinyu/tool/DES.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xinyu/tool/DESEncrypt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xinyu/tool/HttpUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xinyu/tool/IpUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xinyu/tool/MD5Util.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xinyu/tool/PageManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xinyu/tool/SHA1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xinyu/tool/SQLFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xinyu/tool/StaticObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xinyu/tool/StringUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xinyu/tool/Tool.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xinyu/tool/bean/AudioCountBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmproject-1.0-SNAPSHOT/WEB-INF/classes/com/xinyu/tool/DES.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmproject-1.0-SNAPSHOT/WEB-INF/classes/com/xinyu/tool/DESEncrypt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmproject-1.0-SNAPSHOT/WEB-INF/classes/com/xinyu/tool/HttpUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmproject-1.0-SNAPSHOT/WEB-INF/classes/com/xinyu/tool/IpUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmproject-1.0-SNAPSHOT/WEB-INF/classes/com/xinyu/tool/MD5Util.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmproject-1.0-SNAPSHOT/WEB-INF/classes/com/xinyu/tool/PageManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmproject-1.0-SNAPSHOT/WEB-INF/classes/com/xinyu/tool/SHA1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmproject-1.0-SNAPSHOT/WEB-INF/classes/com/xinyu/tool/SQLFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmproject-1.0-SNAPSHOT/WEB-INF/classes/com/xinyu/tool/StaticObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmproject-1.0-SNAPSHOT/WEB-INF/classes/com/xinyu/tool/StringUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmproject-1.0-SNAPSHOT/WEB-INF/classes/com/xinyu/tool/Tool.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmproject-1.0-SNAPSHOT/WEB-INF/classes/com/xinyu/tool/bean/AudioCountBean.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -30,7 +69,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-86">
+            <state relative-caret-position="135">
               <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
             </state>
           </provider>
@@ -39,7 +78,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/xinyu/controller/BaseLearn.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
+            <state relative-caret-position="225">
               <caret line="16" selection-start-line="16" selection-end-line="16" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -49,55 +88,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xinyu/tool/StringUtil.java">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2569">
-              <caret line="226" column="50" selection-start-line="226" selection-start-column="50" selection-end-line="226" selection-end-column="50" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="2310">
+              <caret line="154" column="16" selection-start-line="154" selection-start-column="16" selection-end-line="154" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xinyu/tool/Tool.java">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xinyu/tool/HttpUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="26" column="41" lean-forward="true" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="225">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="376">
-              <caret line="162" column="55" lean-forward="true" selection-start-line="162" selection-start-column="55" selection-end-line="162" selection-end-column="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xinyu/tool/ChaoJiYing.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
+            <state relative-caret-position="103">
+              <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -154,7 +166,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/xinyu/service/impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xinyu/service/impl/UserInfoServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xinyu/common/ResponseInfo.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/springbean/Beans.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/xinyu/springtest/HelloWorld.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xinyu/springtest/MainApp.java" />
@@ -172,6 +183,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/xinyu/tool/WXAPP_Util.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/xinyu/tool/HttpUtilConn.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
       </list>
     </option>
   </component>
@@ -217,18 +229,18 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1845" />
-    <option name="y" value="-544" />
-    <option name="width" value="1749" />
-    <option name="height" value="979" />
+    <option name="x" value="-1295" />
+    <option name="y" value="-427" />
+    <option name="width" value="1280" />
+    <option name="height" value="713" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -252,34 +264,7 @@
               <item name="SSMProgect" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SSMProgect" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SSMProgect" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SSMProgect" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SSMProgect" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="xinyu" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SSMProgect" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SSMProgect" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="xinyu" type="462c0819:PsiDirectoryNode" />
-              <item name="tool" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SSMProgect" type="b2602c69:ProjectViewProjectNode" />
@@ -287,6 +272,26 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SSMProgect" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSMProgect" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SSMProgect" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSMProgect" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -297,11 +302,11 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1594895862497" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1594952440895" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
@@ -329,7 +334,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BaseLearn">
+  <component name="RunManager" selected="Tomcat Server.Cat">
     <configuration name="BaseLearn" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.xinyu.controller.BaseLearn" />
       <module name="SSMProgect" />
@@ -354,8 +359,7 @@
     <configuration name="Cat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.53" ALTERNATIVE_JRE_ENABLED="false">
       <option name="OPEN_IN_BROWSER" value="false" />
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/" />
-      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
-      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATING_POLICY" value="update-resources" />
       <deployment>
         <artifact name="SSMProgect:war exploded">
           <settings>
@@ -366,6 +370,7 @@
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="Unnamed_SSMProgect" />
       </server-settings>
+      <output_file path="$USER_HOME$/tomcat2log" is_save="true" />
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
       <predefined_log_file id="Tomcat Manager" />
@@ -454,12 +459,14 @@
       <workItem from="1594707244295" duration="1727000" />
       <workItem from="1594803528024" duration="4611000" />
       <workItem from="1594865600051" duration="972000" />
-      <workItem from="1594869594614" duration="15856000" />
+      <workItem from="1594869594614" duration="16428000" />
+      <workItem from="1594951530414" duration="946000" />
+      <workItem from="1594952561271" duration="1516000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55693000" />
+    <option name="totallyTimeSpent" value="58727000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -471,10 +478,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1845" y="-544" width="1749" height="979" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1280" height="715" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23667252" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33360258" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -484,7 +490,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32925472" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.35062006" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.51664025" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -494,14 +500,14 @@
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.3290398" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" visible="true" weight="0.3122886" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3122886" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="bottom" id="Database Changes" order="14" />
       <window_info anchor="bottom" id="Version Control" order="15" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.14704159" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.18174475" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" />
@@ -513,14 +519,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/ArticleInfoMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="84" selection-start-line="25" selection-start-column="84" selection-end-line="25" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xinyu/controller/javaac.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/test/mian/SoundBook.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -620,13 +618,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/webapp/demo/js/cropper.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/new.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/new.jsp" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/demo/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="615">
@@ -638,13 +630,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -676,13 +661,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/admin/static/js/app.171a36ae.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="22" selection-start-column="22" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/admin/static/js/app.171a36ae.js" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/admin/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -697,16 +676,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xinyu/common/HandlerInterceptorAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xinyu/common/HandlerInterceptorAdapter.java" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/admin/favicon.ico">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -714,13 +684,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="61" column="36" selection-start-line="61" selection-start-column="36" selection-end-line="61" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -758,13 +721,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-86">
-          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.0.2.RELEASE/spring-web-4.0.2.RELEASE-sources.jar!/org/springframework/http/MediaType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="159">
@@ -786,9 +742,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xinyu/tool/AES.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xinyu/tool/MAtyUtil.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xinyu/tool/SrearchTool.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xinyu/tool/VIPTool.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xinyu/tool/WXAPP_Util.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xinyu/tool/ConnectionFactory.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xinyu/tool/Cookies.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xinyu/tool/JsonUtil.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xinyu/tool/HttpUtilConn.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xinyu/tool/JdbcUtil.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xinyu/tool/ChaoJiYing.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xinyu/tool/StringUtil.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xinyu/tool/Tool.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xinyu/tool/HttpUtil.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xinyu/tool/bean/AudioCountBean.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xinyu/tool/DES.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xinyu/controller/BaseLearn.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
+        <state relative-caret-position="225">
           <caret line="16" selection-start-line="16" selection-end-line="16" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -796,121 +775,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xinyu/tool/AES.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xinyu/tool/MAtyUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xinyu/tool/SrearchTool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-14">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xinyu/tool/StringUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2569">
-          <caret line="226" column="50" selection-start-line="226" selection-start-column="50" selection-end-line="226" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xinyu/tool/VIPTool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xinyu/tool/WXAPP_Util.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xinyu/tool/Tool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xinyu/tool/ConnectionFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xinyu/tool/Cookies.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-207">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xinyu/tool/JsonUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xinyu/tool/ChaoJiYing.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xinyu/tool/HttpUtilConn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="69" selection-start-line="69" selection-end-line="69" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#5536#5551#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xinyu/tool/HttpUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="26" column="41" lean-forward="true" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xinyu/tool/JdbcUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="35" column="93" lean-forward="true" selection-start-line="35" selection-start-column="93" selection-end-line="35" selection-end-column="93" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="162" column="55" lean-forward="true" selection-start-line="162" selection-start-column="55" selection-end-line="162" selection-end-column="55" />
+        <state relative-caret-position="2310">
+          <caret line="154" column="16" selection-start-line="154" selection-start-column="16" selection-end-line="154" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
         </state>
       </provider>
     </entry>
