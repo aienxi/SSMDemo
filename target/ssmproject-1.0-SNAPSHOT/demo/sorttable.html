@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/Sortable.min.js"></script>
+    <script src="js/jquery1.9.1.min.js"></script>
+    <title>拖拽排序</title>
+    <style>
+        .grid-square {
+            width: 100px;
+            height: 100px;
+            float: left;
+            background-color: #fff;
+            border: solid 1px rgb(0,0,0,0.2);
+            margin: 5px;
+            padding: 5px;
+        }
+        .grid-base{
+            width: 380px;
+            height: auto;
+        }
+        .cont{
+            width: 80px;
+            height: 80px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="grid" class="row">
+        <h4 class="col-12">Grid布局例子</h4>
+        <!-- http://www.sortablejs.com/options.html -->
+        <div id="gridDemo" class="grid-base">
+            <div class="grid-square" data-sort="1" ><div class="cont">Item 1</div></div>
+            <div class="grid-square" data-sort="2" ><div class="cont">Item 2</div></div>
+            <div class="grid-square" data-sort="3" ><div class="cont">Item 3</div></div>
+            <div class="grid-square" data-sort="4" ><div class="cont">Item 4</div></div>
+            <div class="grid-square" data-sort="5" ><div class="cont">Item 5</div></div>
+            <div class="grid-square" data-sort="6" ><div class="cont">Item 6</div></div>
+            <div class="grid-square" data-sort="7" ><div class="cont">Item 7</div></div>
+            <div class="grid-square" data-sort="8" ><div class="cont">Item 8</div></div>
+            <div class="grid-square" data-sort="9" ><div class="cont">Item 9</div></div>
+        </div>
+    </div>
+    
+<script>
+        new Sortable(gridDemo, {
+                        swapThreshold: 1,
+                        animation: 150,
+                        // 结束拖拽
+                        onEnd: function (/**Event*/evt) {
+                        var items = $('.grid-square');
+                        console.log(items)
+                        for(var i = 0;i<items.length;i++){
+                            var item = items[i];
+                            console.log(item.dataset.sort)
+                        }
+                    }
+
+                });
+            
+</script>
+</body>
+</html>
